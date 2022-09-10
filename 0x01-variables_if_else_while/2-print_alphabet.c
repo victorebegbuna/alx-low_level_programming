@@ -4,8 +4,8 @@
  * main - lowercase alphabets
  *
  * Return: Always (win)
- * */
- int main(void)
+ * /
+int main(void)
 {
 	char c;
 
