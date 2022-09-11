@@ -13,24 +13,28 @@ int main(void)
 	{
 		for (p = 1; p <= 9; p++)
 		{
-		if (m > && p > 1)
-		{
-			putchar(i + '0');
-			putchar(p + '0');
-			putchar(m + '0');
-				if (i !=7)
+			for (m = 2; m <= 9; m++)
 			{
-				putchar(',');
-				putchar(' ');
+			if (m > && p > 1)
+			{
+				putchar(i + '0');
+				putchar(p + '0');
+				putchar(m + '0');
+					if (i !=7)
+				{
+					putchar(',');
+					putchar(' ');
+
+				}
 
 			}
-
-		}
+			}
 		}
 	}
+	
+
+	putchar('\n');
+
+	return (0)
 }
-
-putchar('\n');
-
-return (0)
 
