@@ -10,10 +10,14 @@ int main(void)
 	int i, p, m;
 
 	for (i =0; 1 <= 9; i++)
+
 	{
+
 		for (p = 1; p <= 9; p++)
+
 		{
 			for (m = 2; m <= 9; m++)
+
 			{
 			if (m > && p > 1)
 			{
@@ -35,6 +39,6 @@ int main(void)
 
 	putchar('\n');
 
-	return (0)
+	return (0);
 }
 
