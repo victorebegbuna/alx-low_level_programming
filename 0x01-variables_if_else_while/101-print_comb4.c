@@ -19,7 +19,9 @@ int main(void)
 			for (m = 2; m <= 9; m++)
 
 			{
+
 			if (m > && p > 1)
+
 			{
 				putchar(i + '0');
 				putchar(p + '0');
