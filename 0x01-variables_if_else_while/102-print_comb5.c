@@ -10,9 +10,9 @@ int main(void)
 {
 	int i, p;
 
-	for (i = 0; i <= 99;)
+	for (i = 0; i <= 100; )
 	{
-		for (p = 0; p <= 99;)
+		for (p = 0; p <= 100; )
 		{
 			if (p != i)
 			{
