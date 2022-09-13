@@ -24,7 +24,7 @@ int main(void)
 
 				putchar((p / 10) + '0');
 
-				putchar((p * 10) + '0');
+				putchar((p % 10) + '0');
 
 				if (i != 98 || p != 98)
 
@@ -42,7 +42,7 @@ int main(void)
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 
 }
 
