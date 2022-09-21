@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include "main.h"
+
 /**
  * _strlen - returns the length of a string
  * @s: string
@@ -5,12 +8,19 @@
  * Return: the length of the given string
  */
 
-int _strlen(char *s)
+void rev_string (char *s)
 {
-	int len = 0;
+	int l, i;
+	char ch;
 
-	while (*(s + len) != '\0')
-		len++;
+	for (l = 0; s[l] ! = '\0'; l++)
 
-	return (len);
+	for (i = 0; i < l / 2; i++)
+	{
+		ch = s[l];
+		s[l] = s[l - 1 - i];
+		s[l -1 - i] = ch;
+	}
+
 }
+
